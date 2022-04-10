@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Yantramanav:wght@100;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #F7F8F9;
+}
+#app {
+    min-width: 360px;
+    font-family: 'Grape Nuts', cursive;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 80%;
+}
+
+.col {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #FCFDFF;
+    box-shadow: 21px 27px 50px -8px rgba(212, 178, 178, 0.17);
+    border-radius: 35px;
+    padding: 25px;
+    margin: 5px;
+    font-size: 1.3rem;
+    gap: 15px;
+}
+
+@media (max-width: 822px) {
+    #app {
+        display: flex;
+        flex-direction: column;
+    }
+    .profile {
+        align-items: flex-start;
+    }
+    .avatar_not_loaded {
+        max-width: 250px;
+    }
+}
