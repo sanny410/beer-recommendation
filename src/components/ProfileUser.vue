@@ -9,7 +9,6 @@
     <div><span class="title">Возраст:</span> {{userAge}}</div>
     <div><span class="title">Должность:</span> {{userInfo.employment.title}}</div>
   </div>
-  <beer-info></beer-info>
 </template>
 
 <script>
