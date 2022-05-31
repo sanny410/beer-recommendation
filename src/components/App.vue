@@ -1,6 +1,6 @@
 <template>
   <profile-user></profile-user>
-  <beer-info></beer-info>
+  <beer-info />
 </template>
 
 <script>
